@@ -13,6 +13,8 @@
 
 :root{
     --color-bg: #1f1f38;
+    /* --color-bg: rgba(203, 236, 104, 0.749); */
+   
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -54,7 +56,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 section{
