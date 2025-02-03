@@ -1,18 +1,29 @@
 
 import './Portfolio.css'
 import IMG1 from '../../assets/income-expense-calculator.jpg'
-import IMG2 from '../../assets/memorygame.jpeg'
-import IMG3 from '../../assets/Ecommerce-Website.webp'
+
+import IMG3 from '../../assets/Ecommerce-Website.png'
 import IMG4 from '../../assets/time-tracking-apps.png'
 import IMG5 from '../../assets/movie-search-app.png'
 import IMG6 from '../../assets/landify-webpage.jpg'
-
+import IMG7 from '../../assets/Pet-adoption-website.png';
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio__container'>
+
+      <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+              <img src={IMG6} alt='todo app'/>
+          </div>
+          <h3>Landify Webpage</h3>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com/vaidheeswarisanthosh/Landify-LandingPage" className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href="https://lambent-arithmetic-3e2ca2.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
               <img src={IMG1} alt='todo app'/>
@@ -24,16 +35,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-              <img src={IMG2} alt='todo app'/>
-          </div>
-          <h3>Memory Game</h3>
-          <div className='portfolio__item-cta'>
-          <a href="https://github.com/vaidheeswarisanthosh/Task-MemoryGame" className='btn' target='_blank' rel="noreferrer">Github</a>
-          <a href="https://magnificent-biscuit-7bcdf1.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
+
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -43,6 +45,17 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
           <a href="https://github.com/vaidheeswarisanthosh/Ecommerce-LandingPage" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://unrivaled-frangollo-fc5493.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+              <img src={IMG5} alt='todo app'/>
+          </div>
+          <h3>Movie Searching App</h3>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com/vaidheeswarisanthosh/Movie-Searching-App" className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href="https://movies-searching-apps.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -59,32 +72,14 @@ const Portfolio = () => {
         </article>
 
 
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-              <img src={IMG5} alt='todo app'/>
-          </div>
-          <h3>Movie Searching App</h3>
-          <div className='portfolio__item-cta'>
-          <a href="https://github.com/vaidheeswarisanthosh/Movie-Searching-App" className='btn' target='_blank' rel="noreferrer">Github</a>
-          <a href="https://movies-searching-apps.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
+    
 
+
+     
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-              <img src={IMG6} alt='todo app'/>
-          </div>
-          <h3>Landify Webpage</h3>
-          <div className='portfolio__item-cta'>
-          <a href="https://github.com/vaidheeswarisanthosh/Landify-LandingPage" className='btn' target='_blank' rel="noreferrer">Github</a>
-          <a href="https://lambent-arithmetic-3e2ca2.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-              <img src={IMG6} alt='todo app'/>
+              <img src={IMG7} alt='todo app' />
           </div>
           <h3>Pet Adoption Website</h3>
           <div className='portfolio__item-cta'>
