@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Portfolio.css'
 import IMG1 from '../../assets/income-expense-calculator.jpg'
 import IMG2 from '../../assets/memorygame.jpeg'
@@ -6,7 +6,6 @@ import IMG3 from '../../assets/Ecommerce-Website.webp'
 import IMG4 from '../../assets/time-tracking-apps.png'
 import IMG5 from '../../assets/movie-search-app.png'
 import IMG6 from '../../assets/landify-webpage.jpg'
-
 
 const Portfolio = () => {
   return (
@@ -80,6 +79,17 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
           <a href="https://github.com/vaidheeswarisanthosh/Landify-LandingPage" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://lambent-arithmetic-3e2ca2.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+              <img src={IMG6} alt='todo app'/>
+          </div>
+          <h3>Pet Adoption Website</h3>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com/vaidheeswarisanthosh/Pet-Adoption-Project" className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href="https://pet-adoption-platform-app.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
